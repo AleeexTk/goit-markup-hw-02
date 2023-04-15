@@ -16,7 +16,7 @@ body {
   height: 2592px;
 
   /* Основной ШРИФТ */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 
   background: var(--secondry-white-color);
 }
@@ -35,8 +35,8 @@ body {
 .header-li {
   list-style: none;
 }
-
-.logo {
+.link {
+  text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -46,10 +46,11 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: var(--primary-bg-color);
-  text-decoration: none;
 }
+.studio.link {
+  color: var(--primary-bg-color);
+}
+.web.link {color: var(--title-text-color);}
 
 .header-link {
   color: var(--title-text-color);
@@ -219,7 +220,6 @@ body {
 
 .footer {
   background-color: var(--title-text-color);
-  
 }
 .footer-text {
   font-family: "Roboto";
