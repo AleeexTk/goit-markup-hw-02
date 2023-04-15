@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+}
+.page {
+  /* цвет основного текста #2E2F42 */
+
+  /* цвет вторичного текста (+адрес) #434455 */
+  color: #434455;
+  /* цвет футера+Н1 #F4F4FD */
+  /* акцент   #404BBF */
+  /* цвет  кнопки #E7E9FC */
+  /* текст на кнопке #4D5AE5*/
+
+  position: relative;
+  width: 1440px;
+  height: 2592px;
+
+  background: #ffffff;
+}
+
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #404bbf;
+  --primary-bg-color: #4d5ae5;
+  --secondary-bg-color: #e7e9fc;
+}
+
+/* HEADER */
+.header-li {
+  list-style: none;
+}
+
+.logo {
+  color: var(--primary-bg-color);
+}
+
+.header-link {
+  color: var(--title-text-color);
+  text-decoration-line: none;
+}
+
+.adress-block {
+  list-style: none;
+}
+.link-adress {
+  color: var(--primary-text-color);
+  text-decoration-line: none;
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.link-adress:focus,
+.link-adress:hover {
+  color: var(--accent-color);
+}
+s
+/* HERO */
+
+.hero-title {
+  color: #ffffff;
+}
+
+.button.primary:hover {
+  color: var(--primary-bg-color);
+  background-color: white;
+}
+
+/* Our privilegies */
+
+.op-title,
+.op-title-li {
+  color: var(--title-text-color);
+}
+.op-list {
+  list-style: none;
+}
+
+/* what are we doing */
+
+.what-title {
+  color: var(--title-text-color);
+}
+.what-block {
+  list-style: none;
+}
+
+/* our team */
+.team-block {
+  list-style: none;
+}
+.team-title,
+.team-title-li {
+  color: var(--title-text-color);
+}
+
+.button.primary {
+  color: #ffffff;
+  background-color: var(--primary-bg-color);
+}
+.button.secondary {
+  color: var(--primary-bg-color);
+  background-color: var(--secondary-bg-color);
+}
+
+/* PORTFOLIO */
+
+.project-title {
+  color: var(--title-text-color);
+}
+.button.secondary:hover {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+
+.project-list,
+.filter-li {
+  list-style: none;
+}
