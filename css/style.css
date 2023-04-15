@@ -1,7 +1,7 @@
 * {
   margin: 0;
 }
-body {
+.page {
   /* цвет основного текста #2E2F42 */
 
   /* цвет вторичного текста (+адрес) #434455 */
@@ -16,11 +16,7 @@ body {
   height: 2592px;
 
   /* Основной ШРИФТ */
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-family: 'Roboto', sans-serif;
 
   background: var(--secondry-white-color);
 }
