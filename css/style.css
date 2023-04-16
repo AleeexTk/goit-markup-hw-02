@@ -35,6 +35,8 @@ body {
 .header-li {
   list-style: none;
 }
+/*Header-LOGOTYPE */
+
 .link {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -46,15 +48,16 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
-.studio.link {
-  color: var(--primary-bg-color);
-}
-.web.link {color: var(--title-text-color);}
+.studio {color: #2e2f42;}
+
+.header.list {list-style: none;}
+
 
 .header-link {
   color: var(--title-text-color);
-  text-decoration-line: none;
+  
 
   font-family: "Roboto";
   font-style: normal;
