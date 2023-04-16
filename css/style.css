@@ -314,3 +314,5 @@ body {
 .filter-li {
   list-style: none;
 }
+
+.project.link {text-decoration: none;}
