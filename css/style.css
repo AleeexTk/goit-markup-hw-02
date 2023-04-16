@@ -220,7 +220,7 @@ body {
 
 .team-title,
 .team-title-li {
-  color: var(--title-text-color);
+  color: var(--title-text-color); background-color: var(--secondry-white-color);
 }
 .team-text {background-color: var(--secondry-white-color);}
 .team-text {line-height: 1.5; letter-spacing: 0.02em;}
