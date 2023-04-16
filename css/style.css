@@ -120,8 +120,8 @@ body {
 
 .button.primary:hover,
 .button.primary:focus {
-  color: var(--accent-color);
-  background-color: var(--secondry-white-color);
+  
+  background-color: var(--accent-color);
 }
 .button.primary {
   font-family: "Roboto", sans-serif;
