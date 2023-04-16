@@ -250,7 +250,20 @@ body {
   color: var(--secondary-bg-color);
 }
 
-/* PORTFOLIO */
+/* PORTFOLIO */ /* PORTFOLIO *//* PORTFOLIO *//* PORTFOLIO *//* PORTFOLIO *//* PORTFOLIO *//* PORTFOLIO */
+
+/* HEADER>index */
+
+/* Our achievements */
+.main-title {font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  text-align: center;
+  letter-spacing: 0.02em;
+color: var(--title-text-color);}
+
+
 
 .button.button.secondary {
   font-family: "Roboto";
