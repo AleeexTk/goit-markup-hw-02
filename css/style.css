@@ -235,12 +235,13 @@ body {
 }
 
 /* FOOTER */
+  .studio-footer {color: #F4F4FD;}
 
 .footer {
   background-color: var(--title-text-color);
 }
 .footer-text {
-  font-family: "Roboto";
+  font-family: "Roboto",;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
