@@ -192,7 +192,9 @@ body {
 }
 
 /* our team */
-.team {background-color: #F4F4FD;}
+.our-team {
+  background-color: #f4f4fd;
+}
 .team.list {
   list-style: none;
 }
@@ -208,8 +210,6 @@ body {
   text-transform: capitalize;
 }
 
-
-
 .team-title-li {
   font-family: "Roboto";
   font-style: normal;
@@ -220,14 +220,21 @@ body {
   letter-spacing: 0.02em;
 }
 
-.team-li {background-color: #ffffff;}
+.team-li {
+  background-color: #ffffff;
+}
 
 .team-title,
 .team-title-li {
-  color: var(--title-text-color); 
+  color: var(--title-text-color);
 }
-.team-text {background-color: var(--secondry-white-color);}
-.team-text {line-height: 1.5; letter-spacing: 0.02em;}
+.team-text {
+  background-color: var(--secondry-white-color);
+}
+.team-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
 .button.primary {
   color: var(--secondry-white-color);
@@ -239,13 +246,15 @@ body {
 }
 
 /* FOOTER */
-  .studio-footer {color: #F4F4FD;}
+.studio-footer {
+  color: #f4f4fd;
+}
 
 .footer {
   background-color: var(--title-text-color);
 }
 .footer-text {
-  font-family: "Roboto",;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -254,20 +263,20 @@ body {
   color: var(--secondary-bg-color);
 }
 
-/* PORTFOLIO */ /* PORTFOLIO *//* PORTFOLIO *//* PORTFOLIO *//* PORTFOLIO *//* PORTFOLIO *//* PORTFOLIO */
+/* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */
 
 /* HEADER>index */
 
 /* Our achievements */
-.main-title {font-family: "Roboto", sans-serif;
+.main-title {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
   text-align: center;
   letter-spacing: 0.02em;
-color: var(--title-text-color);}
-
-
+  color: var(--title-text-color);
+}
 
 .button.button.secondary {
   font-family: "Roboto";
