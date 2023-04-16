@@ -56,7 +56,7 @@ body {
   color: #2e2f42;
 }
 
-/* Header-list */
+/* Header-NAVIGATION */
 .web.link {
   text-decoration: none;
 }
@@ -76,6 +76,8 @@ body {
   text-decoration: none;
 }
 
+/* Header-ADRESS */
+.header-adress {font-style: normal;}
 .adress-block {
   list-style: none;
 
