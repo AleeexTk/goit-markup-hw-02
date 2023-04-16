@@ -267,7 +267,7 @@ body {
 
 /* HEADER>index */
 
-/* Our achievements */
+/* Header */
 .main-title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -277,6 +277,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
+/* Filter */
 
 .button.secondary {
   font-family: "Roboto", sans-serif;
@@ -292,7 +293,16 @@ body {
   cursor: pointer;
 }
 
-.project.list {list-style: none;}
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--secondry-white-color);
+  background-color: var(--accent-color);
+}
+/* Projects  */
+
+.project.list {
+  list-style: none;
+}
 
 .project-title {
   font-family: "Roboto", sans-serif;
@@ -304,11 +314,11 @@ body {
 
   color: var(--title-text-color);
 }
-.project-text {font-size: 16px;line-height: 1.5; letter-spacing: 0.02em; color: var(--primary-text-color);}
-
-.button.secondary:hover, .button.secondary:focus {
-  color: var(--secondry-white-color);
-  background-color: var(--accent-color);
+.project-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 
 .project-li,
@@ -316,4 +326,6 @@ body {
   list-style: none;
 }
 
-.project.link {text-decoration: none;}
+.project.link {
+  text-decoration: none;
+}
