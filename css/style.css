@@ -218,8 +218,9 @@ body {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.02em;
-  background-color: #ffffff;
 }
+
+.team.list {background-color: #ffffff;}
 
 .team-title,
 .team-title-li {
