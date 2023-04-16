@@ -84,21 +84,13 @@ body {
 /* Header-ADRESS */
 .header-adress {
   font-style: normal;
-}
-.adress-block {
-  list-style: none;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-}
-.adress.list {
-  list-style: none;
   line-height: 1.5;
   letter-spacing: 0.02;
+}
+
+.adress.list {
+  list-style: none;
+  
 }
 .adress.link {
   color: var(--primary-text-color);
