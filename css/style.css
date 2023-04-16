@@ -330,7 +330,7 @@ body {
   text-decoration: none;
 }
 /* Footer */
-.logo {
+.logo.link {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -341,4 +341,6 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--primary-bg-color);
 }
+.footer-studio {color: #F4F4FD;}
