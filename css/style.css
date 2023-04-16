@@ -48,16 +48,22 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.web.link {
   color: #4d5ae5;
 }
-.studio {color: #2e2f42;}
+.studio {
+  color: #2e2f42;
+}
 
-.header.list {list-style: none;}
+/* Header-list */
 
+.header.list {
+  list-style: none;
+}
 
 .header-link {
   color: var(--title-text-color);
-  
 
   font-family: "Roboto";
   font-style: normal;
