@@ -57,7 +57,9 @@ body {
 }
 
 /* Header-list */
-.web.link {text-decoration: none;}
+.web.link {
+  text-decoration: none;
+}
 .header.list {
   list-style: none;
 }
