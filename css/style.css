@@ -89,7 +89,6 @@ body {
 
 .adress.list {
   list-style: none;
-  
 }
 .adress.link {
   color: var(--primary-text-color);
@@ -108,23 +107,24 @@ body {
   background-color: var(--title-text-color);
 }
 .hero-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
   text-align: center;
   letter-spacing: 0.02em;
-
   color: var(--secondry-white-color);
+  line-height: 1.07;
 }
 
-.button.primary:hover {
-  color: var(--primary-bg-color);
+.button.primary:hover,
+.button.primary:focus {
+  color: var(--accent-color);
   background-color: var(--secondry-white-color);
 }
 .button.primary {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -138,6 +138,7 @@ body {
   align-items: flex-start;
   padding: 16px 32px;
   gap: 10px;
+  cursor: pointer;
 }
 
 /* Our privilegies */
