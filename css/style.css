@@ -278,8 +278,8 @@ body {
   color: var(--title-text-color);
 }
 
-.button.button.secondary {
-  font-family: "Roboto";
+.button.secondary {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -288,10 +288,14 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
+  background-color: #f4f4fd;
+  cursor: pointer;
 }
 
+.project.list {list-style: none;}
+
 .project-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -301,12 +305,12 @@ body {
   color: var(--title-text-color);
 }
 
-.button.secondary:hover {
+.button.secondary:hover, .button.secondary:focus {
   color: var(--secondry-white-color);
   background-color: var(--accent-color);
 }
 
-.project-list,
+.project-li,
 .filter-li {
   list-style: none;
 }
