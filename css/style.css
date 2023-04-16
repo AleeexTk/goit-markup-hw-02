@@ -76,8 +76,15 @@ body {
   text-decoration: none;
 }
 
+.header.link:hover,
+.header.link:focus {
+  color: var(--accent-color);
+}
+
 /* Header-ADRESS */
-.header-adress {font-style: normal;}
+.header-adress {
+  font-style: normal;
+}
 .adress-block {
   list-style: none;
 
@@ -88,19 +95,16 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
 }
-
-.link-adress {
+.adress.list {
+  list-style: none;
+}
+.adress.link {
   color: var(--primary-text-color);
   text-decoration-line: none;
 }
 
-.header.link:hover,
-.header.link:focus {
-  color: var(--accent-color);
-}
-
-.link-adress:focus,
-.link-adress:hover {
+.adress.link:focus,
+.adress.link:hover {
   color: var(--accent-color);
 }
 
