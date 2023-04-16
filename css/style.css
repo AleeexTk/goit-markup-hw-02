@@ -85,7 +85,6 @@ body {
 .header-adress {
   font-style: normal;
   line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .adress.list {
@@ -95,6 +94,7 @@ body {
 .adress.link {
   color: var(--primary-text-color);
   text-decoration-line: none;
+  letter-spacing: 0.02em;
 }
 
 .adress.link:focus,
