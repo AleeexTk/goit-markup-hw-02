@@ -141,8 +141,6 @@ body {
   background-color: var(--accent-color);
 }
 
-
-
 /* Our privilegies */
 
 .op-title {
@@ -161,10 +159,13 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5; 
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+.op-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 .op-title,
 .op-title-li {
   color: var(--title-text-color);
