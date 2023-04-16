@@ -97,6 +97,8 @@ body {
 }
 .adress.list {
   list-style: none;
+  line-height: 1.5;
+  letter-spacing: 0.05;
 }
 .adress.link {
   color: var(--primary-text-color);
