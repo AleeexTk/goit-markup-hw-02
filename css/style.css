@@ -208,6 +208,8 @@ body {
   text-transform: capitalize;
 }
 
+.team-list {background-color: #ffffff;}
+
 .team-title-li {
   font-family: "Roboto";
   font-style: normal;
@@ -220,7 +222,7 @@ body {
 
 .team-title,
 .team-title-li {
-  color: var(--title-text-color); background-color: #ffffff;
+  color: var(--title-text-color); 
 }
 .team-text {background-color: var(--secondry-white-color);}
 .team-text {line-height: 1.5; letter-spacing: 0.02em;}
