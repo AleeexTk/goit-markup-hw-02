@@ -37,7 +37,7 @@ body {
 }
 /*Header-LOGOTYPE */
 
-.link {
+.web.link {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -57,12 +57,12 @@ body {
 }
 
 /* Header-list */
-
+.link {text-decoration: none;}
 .header.list {
   list-style: none;
 }
 
-.header-link {
+.header.link {
   color: var(--title-text-color);
 
   font-family: "Roboto";
