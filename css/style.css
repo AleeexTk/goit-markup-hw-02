@@ -220,7 +220,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.team.list {background-color: #ffffff;}
+.team-li {background-color: #ffffff;}
 
 .team-title,
 .team-title-li {
