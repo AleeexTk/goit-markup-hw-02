@@ -12,6 +12,8 @@ body {
   /* текст на кнопке #4D5AE5*/
 
   position: relative;
+  padding-right: 156px;
+  padding-left: 156px;
   width: 1440px;
   height: 2592px;
 
@@ -184,7 +186,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
   color: var(--title-text-color);
 }
 .what.list {
@@ -329,6 +330,135 @@ body {
 .project.link {
   text-decoration: none;
 }
+/* BLOCKS Project's*/ /* BLOCKS Project's*/
+
+/* HEADER */
+.page-header.conteiner {
+  display: flex;
+  vertical-align: bottom;
+  margin-left: 156px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  
+}
+.group-1,
+.group-2 {
+  display: flex;
+}
+.box {
+  display: inline;
+  margin-left: 40px;
+}
+
+.header.list {
+  margin-left: 36px;
+}
+.group-2 {
+  margin-left: 0px;
+}
+.adress.list {
+  margin-left: 156px;
+}
+
+/* Project's FILTER LIST */
+
+.conteiner-filter {
+  outline: 1px;
+  width: 1440px;
+  flex-basis: calc(100% / 5);
+  margin-top: 96px;
+  margin-left: 401px;
+  margin-bottom: 59px;
+}
+.filter-set {
+  outline: 1px;
+  flex-basis: calc (100% / 5);
+  margin: 12px;
+  padding: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter li {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 12px;
+}
+
+.filter-button {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid #e7e9fc;
+}
+
+/* Project's card set */
+
+/* Portfolio Page  */
+
+.conteiner-project {
+  outline: 1px;
+  flex-basis: calc(100% / 3);
+  width: 1128px;
+  margin-left: 157px;
+  margin-right: 157px;
+}
+.card-set {
+  outline: 1px solid #ffffff;
+  margin: auto;
+  padding: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-set > .item {
+  outline: 1px;
+  flex-basis: calc(100% / 3);
+  width: 360;
+}
+
+/* 
+.item {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 360px;
+  height: 420px;
+  left: 924px;
+  top: 756px;
+  width: 360px;
+  height: 420px;
+  top: 288px;
+  left: 156px;
+  border: 1px solid #E7E9FC;
+}
+
+.row-1 {
+  position: absolute;
+  width: 1128px;
+  height: 420px;
+  left: 156px;
+  top: 288px;
+}
+.row-2 {
+  position: absolute;
+  width: 1128px;
+  height: 420px;
+  left: 156px;
+  top: 756px;
+}
+.row-3 {
+  position: absolute;
+  width: 1128px;
+  height: 420px;
+  left: 156px;
+  top: 1224px;
+} */
+
 /* Footer */
 .logo.link {
   text-decoration: none;
@@ -343,4 +473,6 @@ body {
   text-transform: uppercase;
   color: var(--primary-bg-color);
 }
-.footer-studio {color: #F4F4FD;}
+.footer-studio {
+  color: #f4f4fd;
+}
