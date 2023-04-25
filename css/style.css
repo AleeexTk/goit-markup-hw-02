@@ -403,6 +403,13 @@ img {
 .privilegies-list {width: calc((100% - 72px) / 4);}
 .privilegies-title-li {margin-bottom: 8px;}
 
+/* WHAT  */
+.what {padding-bottom: 120px;}
+.what-title {margin-bottom: 72px;}
+.what.list {display: flex; gap: 24px;}
+.what-li {width: calc((100% - 48px) / 3);}
+
+
 /* Project's FILTER LIST */
 
 .conteiner-filter {
