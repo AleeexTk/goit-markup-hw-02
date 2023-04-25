@@ -268,32 +268,7 @@ img {
   color: var(--secondary-bg-color);
 }
 
-/* BLOCKS Project's*/ /* BLOCKS Project's*/
-
-/* HERO SECTION*/
-.hero {
-  width: 1440px;
-  height: 600px;
-}
-.hero-section {
-  display: inline-block;
-  vertical-align: middle;
-  margin-top: 188px;
-  margin-left: 472px;
-  margin-right: 472px;
-}
-.hero-title {
-  width: 496px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 42px;
-}
-.button.primary {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */
+/* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */
 
 /* HEADER>index */
 
@@ -359,7 +334,10 @@ img {
 .project.link {
   text-decoration: none;
 }
-/* BLOCKS Project's*/ /* BLOCKS Project's*/
+
+/* BLOCKS Project's*/ /* BLOCKS Project's*/ /* BLOCKS Project's*/
+
+/* INDEX+PORTFOLIO */ /* INDEX+PORTFOLIO */
 
 /* HEADER */
 .page-header {
@@ -387,12 +365,34 @@ img {
 .header-item {
   padding: 24px 0;
 }
-.header.link {padding: 24px 0}
-.adress-list { gap: 40px;
+.header.link {
+  padding: 24px 0;
+}
+.adress-list {
+  gap: 40px;
   display: flex;
 }
 
-.adress-item { padding: 24px 0;
+.adress-item {
+  padding: 24px 0;
+}
+
+/* INDEX */ /* INDEX */
+
+/* HERO */
+
+.hero {
+  padding: 188px 0;
+}
+.what-title {
+  max-width: 496px;
+}
+.button.primary {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 /* Project's FILTER LIST */
