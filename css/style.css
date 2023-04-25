@@ -384,8 +384,9 @@ img {
 .hero {
   padding: 188px 0;
 }
-.what-title {
+.hero-title {
   max-width: 496px;
+  margin: auto;
 }
 .button.primary {
   display: block;
