@@ -453,7 +453,10 @@ img {
 .team-text {
   text-align: center;
 }
-
+/* FOOTER */
+.footer {padding: 100px 0;}
+.web.link {display: inline-block; margin-bottom: 16px;}
+.footer-text {max-width: 264px}
 /* Project's FILTER LIST */
 
 .conteiner-filter {
