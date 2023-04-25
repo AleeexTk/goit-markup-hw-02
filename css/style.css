@@ -380,20 +380,20 @@ img {
 .web.link.box {
   margin-right: 76px;
 }
-.header.list {
-  display: flex;
-  gap: 40px;
-}
-.box {
-  padding: 24px 0;
-}
 .header-list {
   display: flex;
   gap: 40px;
 }
-.box-adress
+.header-item {
+  padding: 24px 0;
+}
 
-
+.adress-list {
+  display: flex;
+}
+.adress-item {
+  display: flex;
+}
 
 /* Project's FILTER LIST */
 
