@@ -406,7 +406,7 @@ img {
 /* WHAT  */
 .what {padding-bottom: 120px;}
 .what-title {margin-bottom: 72px;}
-.what.list {display: flex; gap: 24px;}
+.what.list {display: flex; gap: 24px; }
 .what-li {width: calc((100% - 48px) / 3);}
 
 
