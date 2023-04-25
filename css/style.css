@@ -361,12 +361,13 @@ img {display: block;}
 /* HEADER */
 .page-header {border-bottom: 1px solid #e7e9fc}
 .header-conteiner {display: flex;}
-.conteiner {width: 1158px; margin: 0; padding: 0 15px;}
+.header-conteiner.conteiner {width: 1158px; margin: 0; padding: 0 15px;}
 .header-navigation {display: flex; align-items: center;}
 .web.link.box {margin-right: 76px;}
 .header.list {display: flex; gap: 40px;}
 .box {padding: 24px 0;}
-.header-list {display: block; gap: 40px;}
+.header-list {display: flex; gap: 40px;}
+.box-adress
 
 
 
