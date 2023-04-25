@@ -398,7 +398,7 @@ img {
 }
 /* Our privilegies */
 
-.privilegies {padding: 120px 0;}
+.privilegies {padding-bottom: 120px 0;}
 .privilegies.list {display: flex; gap: 24px;}
 .privilegies-list {width: calc((100% - 72px) / 4);}
 .privilegies-title-li {margin-bottom: 8px;}
