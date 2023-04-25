@@ -31,7 +31,9 @@ body {
   --secondary-bg-color: #e7e9fc;
   --secondry-white-color: #ffffff;
 }
-img {display: block;}
+img {
+  display: block;
+}
 /* HEADER */
 
 .header-li {
@@ -269,15 +271,16 @@ img {display: block;}
 /* BLOCKS Project's*/ /* BLOCKS Project's*/
 
 /* HERO SECTION*/
-.hero {width: 1440px;height: 600px;}
+.hero {
+  width: 1440px;
+  height: 600px;
+}
 .hero-section {
   display: inline-block;
   vertical-align: middle;
   margin-top: 188px;
   margin-left: 472px;
   margin-right: 472px;
-  
-  
 }
 .hero-title {
   width: 496px;
@@ -359,14 +362,35 @@ img {display: block;}
 /* BLOCKS Project's*/ /* BLOCKS Project's*/
 
 /* HEADER */
-.page-header {border-bottom: 1px solid #e7e9fc}
-.header-conteiner {display: flex;}
-.header-conteiner.conteiner {width: 1158px; margin: 0; padding: 0 15px;}
-.header-navigation {display: flex; align-items: center;}
-.web.link.box {margin-right: 76px;}
-.header.list {display: flex; gap: 40px;}
-.box {padding: 24px 0;}
-.header-list {display: flex; gap: 40px;}
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-conteiner {
+  display: flex;
+}
+.header-conteiner.conteiner {
+  width: 1158px;
+  margin: 0;
+  padding: 0 15px;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+.web.link.box {
+  margin-right: 76px;
+}
+.header.list {
+  display: flex;
+  gap: 40px;
+}
+.box {
+  padding: 24px 0;
+}
+.header-list {
+  display: flex;
+  gap: 40px;
+}
 .box-adress
 
 
@@ -424,9 +448,15 @@ img {display: block;}
   height: 420px;
   padding-bottom: 10px;
 }
-.project-title {margin-top: 32px; margin-bottom: 8px; margin-left: 16px;}
-.project-text {margin-left: 16px; margin-bottom: 32px;}
-
+.project-title {
+  margin-top: 32px;
+  margin-bottom: 8px;
+  margin-left: 16px;
+}
+.project-text {
+  margin-left: 16px;
+  margin-bottom: 32px;
+}
 
 /* Footer */
 .logo.link {
