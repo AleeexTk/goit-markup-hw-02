@@ -31,7 +31,7 @@ body {
   --secondary-bg-color: #e7e9fc;
   --secondry-white-color: #ffffff;
 }
-
+img {display: block;}
 /* HEADER */
 
 .header-li {
@@ -359,33 +359,15 @@ body {
 /* BLOCKS Project's*/ /* BLOCKS Project's*/
 
 /* HEADER */
-.page-header.conteiner {
-  display: flex;
-  vertical-align: bottom;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  width: 1128px;
-  margin-left: 157px;
-  margin-right: 157px;
-}
-.group-1,
-.group-2 {
-  display: flex;
-}
-.box {
-  display: inline;
-  margin-left: 40px;
-}
 
-.header.list {
-  margin-left: 36px;
-}
-.group-2 {
-  margin-left: 0px;
-}
-.adress.list {
-  margin-left: 156px;
-}
+.conteiner {width: 1158px; margin: 0; padding: 0 15px;}
+.header-navigation {display: flex; align-items: center;}
+.web.link.box {margin-right: 76px;}
+.header.list {display: flex; gap: 40px;}
+.box {padding: 24px 0;}
+.header-list {display: block; gap: 40px;}
+
+
 
 /* Project's FILTER LIST */
 
