@@ -387,12 +387,12 @@ img {
 .header-item {
   padding: 24px 0;
 }
-
-.adress-list {
+.header.link {padding: 24px 0}
+.adress-list { gap: 40px;
   display: flex;
 }
-.adress-item {
-  display: flex;
+
+.adress-item { padding: 24px 0;
 }
 
 /* Project's FILTER LIST */
