@@ -148,7 +148,7 @@ img {
 
 /* Our privilegies */
 
-.op-title {
+.privilegies-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -159,7 +159,7 @@ img {
   text-transform: capitalize;
 }
 
-.op-title-li {
+.privilegies-title-li {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -167,15 +167,15 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.op-text {
+.privilegies-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.op-title,
-.op-title-li {
+.privilegies-title,
+.privilegies-title-li {
   color: var(--title-text-color);
 }
-.op-list {
+.privilegies-list {
   list-style: none;
 }
 
@@ -396,6 +396,12 @@ img {
   border-radius: 4px;
   margin: auto;
 }
+/* Our privilegies */
+
+.privilegies {padding: 120px 0;}
+.privilegies.list {display: flex; gap: 24px;}
+.privilegies-list {width: calc((100% - 72px) / 4);}
+.privilegies-title-li {margin-bottom: 8px;}
 
 /* Project's FILTER LIST */
 
