@@ -454,86 +454,34 @@ img {
   text-align: center;
 }
 /* FOOTER */
-.footer {padding: 100px 0;}
-.web.link {display: inline-block; margin-bottom: 16px;}
-.footer-text {max-width: 264px}
+.footer {
+  padding: 100px 0;
+}
+.web.link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer-text {
+  max-width: 264px;
+}
+
 /* Project's FILTER LIST */
 
-.conteiner-filter {
-  outline: 1px;
-  width: 1128px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 96px;
-  align-items: center;
-  margin-bottom: 59px;
+.project {
+  padding: 96px 0 120px;
 }
-
-.filter-set {
-  outline: 1px;
+.main-title .conteiner-filter .filter-set {
   display: flex;
-}
-
-.filter li .filter-button {
-  margin: 12px;
   justify-content: center;
-  align-items: center;
-  padding: 11px 23px;
-  border-radius: 4px;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.filter-button {
+  padding: 12px 24px;
   border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
-
-/* Project's card set */
-
-/* Portfolio Page  */
-
-.conteiner-project {
-  outline: 1px;
-  flex-basis: calc(100% / 3);
-  width: 1128px;
-  margin-left: 157px;
-  margin-right: 157px;
-}
-.card-set {
-  outline: 1px solid #ffffff;
-  margin: auto;
-  padding: auto;
-  display: flex;
-  flex-wrap: wrap;
-  flex-basis: calc(100% / 3);
-  width: 360;
-}
-.card-set > .item {
-  outline: 12px;
-  flex-basis: calc(100% / 3);
-  width: 360px;
-  height: 420px;
-  padding-bottom: 10px;
-}
-.project-title {
-  margin-top: 32px;
-  margin-bottom: 8px;
-  margin-left: 16px;
-}
-.project-text {
-  margin-left: 16px;
-  margin-bottom: 32px;
-}
-
-/* Footer */
-.logo.link {
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-bg-color);
-}
-.footer-studio {
-  color: #f4f4fd;
+.filter-button:hover,
+.filter-button:focus {
+  border: 1px solid transparent;
 }
