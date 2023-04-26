@@ -472,6 +472,7 @@ img {
 }
 
 .filter-set {
+  outline: orange;
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -485,4 +486,8 @@ img {
 .filter-button:hover,
 .filter-button:focus {
   border: 1px solid transparent;
+}
+.card-set {
+  outline: tomato;
+  display: flex;
 }
