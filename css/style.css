@@ -470,7 +470,7 @@ img {
 .project {
   padding: 96px 0 120px;
 }
-.main-title .conteiner-filter .filter-set {
+.container-filter .filter-set {
   display: flex;
   justify-content: center;
   gap: 24px;
