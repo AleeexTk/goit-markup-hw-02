@@ -310,7 +310,7 @@ img {
 }
 /* Projects  */
 
-.project.list {
+.project-list {
   list-style: none;
 }
 
@@ -486,7 +486,7 @@ p {
 /* Project's FILTER LIST */
 
 .project {
-  padding-bottom: 120px;
+  padding: 96px 0 120px;
 }
 
 .filter-set {
